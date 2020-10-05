@@ -23,11 +23,16 @@
         border-radius: 75%;
         margin-top: .50in;
     }
-
+    .scroll::-webkit-scrollbar{
+        display: none;
+    }
+    .scroll{
+        -ms-overflow-style: none;}
     body {
         background: repeating-linear-gradient(90deg, #494747 0%, white 50%, #494747 100%);
         margin: 50px 0px 0px 0px;
         text-align: center;
+        padding-bottom: 625px;
     }
 
     #top_bar {
@@ -121,7 +126,7 @@
     <title> Quick Links </title>
 </head>
 
-<body>
+<body class="scroll">
     <div id="top_bar">
         <form id="portal_search" action="https://cg.portal.uscg.mil/search/Pages/Results.aspx" method="get" target="_blank">
             <input type="text" name="k" placeholder="CG Portal Search" target="_blank" />
