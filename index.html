@@ -223,20 +223,7 @@
         <footer id="footer">
            <div><a style="color:#c2bdbd; float: left; margin-left: 10px; font-size: 25px;" href="mailto:anton2648@gmail.com?subject=Add/Edit Landing Pad Link">Submit Changes/Feedback</a></div>
            <a style="color: #c2bdbd; float: right; margin-right: 10px;"> Created by Andre Ramos</a>
-Microsoft.Office.Interop.Outlook.Application oApp = new Microsoft.Office.Interop.Outlook.Application();
-Microsoft.Office.Interop.Outlook.MailItem oMsg = (Microsoft.Office.Interop.Outlook.MailItem)oApp.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType.olMailItem);
 
-oMsg.Subject = "emailSubject";
-oMsg.BodyFormat = Microsoft.Office.Interop.Outlook.OlBodyFormat.olFormatHTML;
-oMsg.BCC = "emailBcc";
-oMsg.To = "emailRecipient";
-
-string body = "emailMessage";
-
-oMsg.HTMLBody = "body";              
-oMsg.Attachments.Add(Convert.ToString(@"https://cg.portal.uscg.mil/units/airstahouston/AVENG/Leave/Special%20Request%20Chit%20-%20NAV%201336.PDF"), Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue, Type.Missing, Type.Missing);
-
-oMsg.Display(false); //In order to displ
         </footer>
 
 </body>
