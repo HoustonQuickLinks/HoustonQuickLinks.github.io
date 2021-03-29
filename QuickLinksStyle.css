@@ -1,0 +1,133 @@
+p {
+    color: #060aad;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Source Code Pro', Calibri;
+}
+
+    p:hover {
+        color: black;
+        font-size: 30px;
+    }
+
+h2 {
+    font-size: 40px;
+    font-family: 'Orbitron', Calibri;
+}
+
+#patch {
+    width: 200px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 75%;
+    margin-top: .50in;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.scroll{
+    -ms-overflow-style: none;
+}
+body {
+    background: repeating-linear-gradient(90deg, #494747 0%, white 50%, #494747 100%);
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding-bottom: 625px;
+            
+}
+
+#top_bar {
+    display: inline;
+    background-color: black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    height: 50px;
+    
+}
+
+#portal_search {
+    float: left;
+    margin-top: 15px;
+}
+
+#searchbar {
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 0px 0px 25px;
+    font-family: 'Orbitron', Calibri;
+    text-transform: uppercase;
+}
+  /* Dropdown Button */
+.dropbtn {
+background-color: black;
+color: white;
+padding: 20px;
+font-size: 20px;
+font-family: 'Orbitron', Calibri;
+border: none;
+text-transform: uppercase;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: black;
+min-width: 150px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color:white;
+font-size: 16px;
+padding: 10px 14px;
+text-decoration: none;
+font-family: 'Source Code Pro', Calibri;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #060aad;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #060aad;}
+
+</style>
